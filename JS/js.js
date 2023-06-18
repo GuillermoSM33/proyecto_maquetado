@@ -18,27 +18,38 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 1,
             nombre: 'Paquete # 1 Anillos',
             precio: 3000,
-            imagen: 'IMG/ring_basic01.jpg'
+            imagen: 'IMG/ring_basic1.jpg'
         },
         {
             id: 2,
             nombre: 'Paquete # 2 Anillos',
             precio: 6000,
-            imagen: 'IMG/ring_clasic02.jpg'
+            imagen: 'IMG/ring_clasic2.jpg'
         },
         {
             id: 3,
             nombre: 'Paquete # 3 Anillos',
             precio: 10000,
-            imagen: 'IMG/ring_gold03.png'
+            imagen: 'IMG/ring_gold3.jpg'
         },
         {
             id: 4,
             nombre: 'Paquete #4 Anillos',
             precio: 15000,
             imagen: 'IMG/ring_deluxe04.jpg'
+        },
+        {
+            id: 5,
+            nombre: 'Paquete #5 Anillos',
+            precio: 15000,
+            imagen: 'IMG/ring_deluxe4.jpg'
+        },
+        {
+            id: 6,
+            nombre: 'Paquete #6 Anillos',
+            precio: 15000,
+            imagen: 'IMG/ring_deluxe5.jpeg'
         }
-
     ];
 
     let carrito = [];

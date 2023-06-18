@@ -15,7 +15,7 @@
   text-align: left;
 }
 
-.photo{
+.photo {
   text-align: left;
   width: 30px;
   height: 24px;
@@ -52,18 +52,20 @@ nav a:hover {
   text-decoration: underline;
 }
 
-#first_img{
+#first_img {
   padding: 0 6%;
   /*max-width: 80%;*/
   max-height: 400px;
 }
 
-.acomodo{
+.acomodo {
   padding-top: 30px;
   width: 88%;
+  clear: both;
+  padding-bottom: 30px;
 }
 
-#foto{
+#foto {
   max-height: 280px;
   float: right;
   width: 30%;
@@ -75,13 +77,13 @@ nav a:hover {
 
 }
 
-#foto:hover{
+#foto:hover {
   opacity: 80%;
   transform: scale(1.2);
   background-color: rgb(208, 165, 248);
 }
 
-#Texto{
+#Texto {
   font-size: 20px;
   line-height: 30px;
 }
@@ -92,19 +94,21 @@ section h1 {
   text-align: center;
 }
 
-.Exclamar{
+.Exclamar {
   font-size: 50px;
   padding-bottom: 20px;
   text-decoration: aliceblue;
   text-align: center;
 }
 
-.col-sm-4{
-  width: 33.33%;
+.col-sm-4 {
+  text-align: center;
+  font-size: 20px;
+  width: 23.33%;
 }
 
-.separacion{
+.separacion {
   display: grid;
-    grid-template-columns: repeat(2,1fr);
-    clear: both;
+  grid-template-columns: repeat(2, 1fr);
+  clear: both;
 }
