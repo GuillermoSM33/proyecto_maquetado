@@ -24,19 +24,19 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 2,
             nombre: 'Paquete # 2 Anillos',
             precio: 6000,
-            imagen: 'cebolla.jpg'
+            imagen: 'IMG/ring_clasic02.jpg'
         },
         {
             id: 3,
             nombre: 'Paquete # 3 Anillos',
             precio: 10000,
-            imagen: 'calabacin.jpg'
+            imagen: 'IMG/ring_gold03.png'
         },
         {
             id: 4,
             nombre: 'Paquete #4 Anillos',
             precio: 15000,
-            imagen: 'fresas.jpg'
+            imagen: 'IMG/ring_deluxe04.jpg'
         }
 
     ];
