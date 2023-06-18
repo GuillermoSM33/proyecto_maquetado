@@ -21,9 +21,11 @@
 
     <!--Esto es para conectar las librerías de bootstrap-->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 
 </head>
 
@@ -34,8 +36,10 @@
     <nav>
 
         <ul>
-
-            <li class="photo_and_name_of_company"><a href="#">Marings</a></li>
+            <li>
+                <img src="IMG/icon_eyelash.png" class="photo" alt="Logo">
+            </li>
+            <li class="photo_and_name_of_company"> <a href="#">Marings</a></li>
             <li><a href="Index.html">Inicio</a></li>
             <li><a href="#">Productos</a></li>
             <li><a href="compras.html">Compras</a></li>
@@ -48,31 +52,83 @@
 
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img src="IMG/carousel03.jpg" class="d-block w-100" id="first_img" alt="Boda_Aliados">
+            </div>
+            <div class="carousel-item">
+                <img src="IMG/carousel04.jpg" class="d-block w-100" id="first_img" alt="Boda_Aliados">
+            </div>
+            <div class="carousel-item">
+                <img src="IMG/carousel07.jpg" class="d-block w-100" id="first_img" alt="Boda_Aliados">
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previo</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
         </button>
-      </div>
+    </div>
 
+        <section id="Texto">
+            <h1>"Estas a unos pasos de alcanzar"</h1>
+
+            <!--En este HREF haremos referencia a la página CATEGORIAS, tanto en la IMG, como en el HREF-->
+
+            <a href="#"><img src="IMG/carrito02.png" alt="Carrito_Compras" id="foto"></a>
+            <h1 class="Exclamar">!LA BODA DE TUS SUEÑOS!</h1>
+            <p>Gracias a nuestro amplio repertorio de aliados, podemos ofrecer a nuestros clientes
+                una experiencia más diversa, en cuánto a la selección de todos los insumos que
+                se pudieran requerir al celebrar la boda de sus sueños.
+            </p>
+            <p>
+                Para conocer más acerca de detalles de nuestros productos y nuestros aliados,
+                te invitamos a conocer nuestras <a href="#">Categorias de productos.</a>
+            </p>
+        </section>
+
+        <!-- Si queremos que esta parte funcione debemos usar JS para que compile -->
+
+        <div class="container">
+            <div class="row">
+
+                <!-- Elementos generados a partir del JSON -->
+
+                <main id="items" class="col-sm-8 row">
+                    
+                </main>
+                
+                <script src="JS/js.js"></script>
+
+                <!-- Carrito -->
+
+                <aside class="col-sm-4">
+                    <h2>Carrito</h2>
+
+                    <!-- Elementos del carrito -->
+
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+
+                    <!-- Precio total -->
+
+                    <p class="text-right">Total: <span id="total"></span> MXN</p>
+                    <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                </aside>
+            </div>
+        </div>
 
 </body>
 
