@@ -3,10 +3,9 @@
 
 <head>
 
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compras</title>
+    <title>Productos</title>
 
     <!--Esto es para las fuentes de la página-->
 
@@ -28,8 +27,6 @@
         crossorigin="anonymous"></script>
 
 </head>
-
-<!--Todos los body deben tener esta clase, para evitar que el bootstrap altere nuestro body-->
 
 <body class="specific_body">
 
@@ -82,72 +79,6 @@
         </button>
     </div>
 
-    <div class="acomodo">
-
-        <section id="Texto">
-            <h1>"Estas a unos pasos de alcanzar"</h1>
-
-            <!--En este HREF haremos referencia a la página CATEGORIAS, tanto en la IMG, como en el HREF-->
-
-            <a href="#"><img src="IMG/carrito02.png" alt="Carrito_Compras" id="foto"></a>
-            <h1 class="Exclamar">!LA BODA DE TUS SUEÑOS!</h1>
-            <p>Gracias a nuestro amplio repertorio de aliados, podemos ofrecer a nuestros clientes
-                una experiencia más diversa, en cuánto a la selección de todos los insumos que
-                se pudieran requerir al celebrar la boda de sus sueños.
-            </p>
-            <p>
-                Para conocer más acerca de detalles de nuestros productos y nuestros aliados,
-                te invitamos a conocer nuestras <a href="#">Categorias de productos.</a>
-            </p>
-        </section>
-    </div>
-
-    <!-- Si queremos que esta parte funcione debemos usar JS para que compile -->
-
-    <h1 class="Exclamar">!Nuestros Anillos!</h1>
-
-    <div class="container">
-        <div class="row">
-
-            <!-- Elementos generados a partir del JSON -->
-
-            <main id="items" class="col-sm-8 row">
-
-            </main>
-
-            <script src="JS/js.js"></script>
-
-            <!-- Carrito -->
-
-            <aside class="col-sm-4">
-                <h2>Carrito</h2>
-
-                <!-- Elementos del carrito -->
-
-                <ul id="carrito" class="list-group"></ul>
-                <hr>
-
-                <!-- Precio total -->
-
-                <p class="text-right">Total: <span id="total"></span> MXN</p>
-                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
-            </aside>
-        </div>
-    </div>
-
-    <div class="boton">
-        <a href="confir_compra.html">Comprar</a>
-    </div>
-
-    <!--Footer-->
-    <footer>
-        <h5>Alvarado Salazar Anthony Willians | SM-33</h5>
-        <h5>Garcia Canul Guillermo De Jesus | SM-33</h5>
-        <img src="IMG/call.png">
-        <img src="IMG/correo.png">
-        <img src="IMG/whatt.png">
-         
-      </footer>
 </body>
 
 </html>

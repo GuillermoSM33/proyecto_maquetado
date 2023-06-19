@@ -87,6 +87,23 @@ nav a:hover {
 #Texto {
   font-size: 20px;
   line-height: 30px;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+#Texto2 h1 {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#Texto2{
+  background: #F5DCDC;
+  font-size: 20px;
+  border: 2px solid black;
+  text-align: justify;
+  padding: 0 10px;
+  clear: both;
 }
 
 section h1 {
