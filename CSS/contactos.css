@@ -13,6 +13,12 @@
     text-align: left;
   }
 
+  .photo {
+    text-align: left;
+    width: 30px;
+    height: 24px;
+  }
+  
 nav {
     background-color: #ffffff;
     height: 60px;
