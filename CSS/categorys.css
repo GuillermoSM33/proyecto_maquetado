@@ -1,0 +1,122 @@
+
+
+  .specific_body {
+    background-color: #D9D9D9;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .photo_and_name_of_company {
+    padding-right: 25%;
+    text-align: left;
+  }
+
+nav {
+    background-color: #ffffff;
+    height: 60px;
+    text-align: right;
+  }
+  
+  nav a {
+    width: fit-content;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav ul {
+    padding-top: 10px;
+  
+  }
+  
+  nav ul li {
+    padding-top: 10px;
+    display: inline;
+    /*PADDING: TOP, RIGHT BOTTOM LEFT*/
+    padding: 5px 10PX 5PX 10px;
+  }
+  
+  nav a:hover {
+    color: aqua;
+    text-decoration: underline;
+  }
+ 
+  
+
+  .banner-section {
+    background: url("https://images.pexels.com/photos/5085334/pexels-photo-5085334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") 50% no-repeat;
+    background-size: cover;
+    height: 75vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .banner-section .banner-section-text {
+    color: #000000;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  
+body p{
+    margin: 30px 18px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+  /*Categorias*/
+  #catg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    clear: both;
+  }
+
+  .card {
+    margin: 30px 50px;
+    width: 400px;
+    border:#F1209E;
+  }
+  
+
+  
+  .card-title {
+    background-color: #F1209E;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+
+  
+ /*Footer*/
+footer{
+    margin-top: 150px;
+    background: #FFDB1E;
+    padding: 25px 15px;
+    position: relative;
+    text-align: right;
+    
+  }
+  
+  footer img{
+    margin: 0 8px;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+  }
+  
+  footer h5{
+    font-weight: bold;
+    clear: both;
+    float: left;
+  }
