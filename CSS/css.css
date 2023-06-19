@@ -84,11 +84,19 @@ nav a:hover {
   background-color: rgb(208, 165, 248);
 }
 
+section {
+  width: 88%;
+}
+
 #Texto {
   font-size: 20px;
   line-height: 30px;
   clear: both;
   padding-bottom: 20px;
+}
+
+#Texto p{
+  text-align: justify;
 }
 
 #Texto2 h1 {
@@ -97,13 +105,65 @@ nav a:hover {
   font-size: 40px;
 }
 
-#Texto2{
+#Texto h2{
+  padding-top: 5%;
+  text-align: center;
+}
+
+#Texto2 {
   background: #F5DCDC;
   font-size: 20px;
   border: 2px solid black;
   text-align: justify;
   padding: 0 10px;
   clear: both;
+}
+
+#Proveedores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  clear: both;
+}
+
+.proveedor {
+  padding: 20px;
+  text-align: justify;
+}
+
+.proveedor img{
+  border-radius: 5%;
+  width: 100%;
+
+  /*Se le agrega radius and transition*/
+
+  border-radius: 5%;
+  transition: 0.8s;
+}
+
+/*Se le agrega over a la foto de las carreras*/
+
+.proveedor img:hover{
+  opacity: 80%;
+  transform: scale(1.2);
+}
+
+.proveedor h4{
+  font-size: 25px;
+  padding: 20px 0;
+}
+.proveedor a{
+  background: rgb(3, 148, 193) ;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.proveedor a:hover{
+  color: rgb(3, 148, 193) ;
+  background-color: #ffffff;
 }
 
 section h1 {
@@ -121,12 +181,12 @@ section h1 {
 
 .Exclamar2 {
   padding-left: 16%;
-  height: 20px; 
+  height: 20px;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   -webkit-text-stroke: 2px rgb(255, 73, 73);
-  color: #ffffff; 
+  color: #ffffff;
   clear: both;
 }
 
@@ -147,7 +207,7 @@ section h1 {
   width: fit-content;
 }
 
-.boton{
+.boton {
   text-align: center;
 }
 
@@ -177,20 +237,24 @@ Esta parte es el css para el metodo de pago
   width: 375px;
   margin: auto;
 }
+
 .main-container__background-section {
   background-image: url("IMG/tarjeta_credito.jpg");
   background-repeat: no-repeat;
   height: 240px;
   position: relative;
 }
+
 .main-container__form-section {
   padding: 90px 24px 45px;
 }
+
 @media (min-width: 1440px) {
   .main-container {
     width: 1440px;
     display: flex;
   }
+
   .main-container__background-section {
     background-image: url("IMG/tarjeta_credito.jpg");
     width: 900px;
@@ -211,6 +275,7 @@ Esta parte es el css para el metodo de pago
   z-index: 1;
   letter-spacing: 2px;
 }
+
 @media (min-width: 1440px) {
   .card {
     width: 450px;
@@ -218,33 +283,40 @@ Esta parte es el css para el metodo de pago
     padding: 30px;
   }
 }
+
 @media (min-width: 1440px) {
   .card {
     top: 187px;
     left: 167px;
   }
 }
+
 .card__logo {
   width: 30px;
 }
+
 .card__number {
   margin-bottom: 15px;
 }
+
 .card__details {
   display: flex;
   font-size: 0.6em;
   justify-content: space-between;
   text-transform: uppercase;
 }
+
 @media (min-width: 1440px) {
   .card__logo {
     width: 86px;
     margin-bottom: 55px;
   }
+
   .card__number {
     font-size: 1.6em;
     margin-bottom: 25px;
   }
+
   .card__details {
     font-size: 0.8em;
   }
@@ -263,6 +335,7 @@ Esta parte es el css para el metodo de pago
   left: 75px;
   letter-spacing: 2px;
 }
+
 @media (min-width: 1440px) {
   .card-back {
     width: 450px;
@@ -270,18 +343,21 @@ Esta parte es el css para el metodo de pago
     padding: 30px;
   }
 }
+
 @media (min-width: 1440px) {
   .card-back {
     top: 468px;
     left: 257px;
   }
 }
+
 .card-back__cvc {
   font-size: 0.7em;
   margin-top: 50px;
   text-align: right;
   padding-right: 10px;
 }
+
 @media (min-width: 1440px) {
   .card-back__cvc {
     font-size: 1em;
@@ -299,6 +375,7 @@ Esta parte es el css para el metodo de pago
   color: hsl(278deg, 68%, 11%);
   font-weight: bold;
 }
+
 .form__input {
   width: 100%;
   height: 40px;
@@ -310,19 +387,24 @@ Esta parte es el css para el metodo de pago
   font-size: 1em;
   outline: none;
 }
+
 .form__input::placeholder {
   color: hsl(270deg, 3%, 87%);
 }
+
 .form__date-cvc {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 16px;
 }
+
 .form__date {
   display: flex;
   gap: 10px;
 }
-.form__submit, .thanks-section__button {
+
+.form__submit,
+.thanks-section__button {
   background-color: hsl(278deg, 68%, 11%);
   color: hsl(270deg, 3%, 87%);
   width: 100%;
@@ -332,14 +414,18 @@ Esta parte es el css para el metodo de pago
   letter-spacing: 1px;
   font-family: "Space Grotesk", sans-serif;
 }
-.form__submit:hover, .thanks-section__button:hover {
+
+.form__submit:hover,
+.thanks-section__button:hover {
   cursor: pointer;
 }
+
 @media (min-width: 1440px) {
   .form {
     margin-top: 180px;
     width: 385px;
   }
+
   .form__input {
     margin-bottom: 40px;
   }
@@ -367,11 +453,13 @@ Esta parte es el css para el metodo de pago
   margin: auto;
   margin-bottom: 60px;
 }
+
 .thanks-section__img {
   display: block;
   margin: auto;
   margin-bottom: 30px;
 }
+
 .thanks-section__title {
   text-transform: uppercase;
   text-align: center;
@@ -380,12 +468,14 @@ Esta parte es el css para el metodo de pago
   color: hsl(278deg, 68%, 11%);
   margin-bottom: 24px;
 }
+
 .thanks-section__text {
   text-align: center;
   color: hsl(279deg, 6%, 55%);
   font-size: 1.1em;
   margin-bottom: 24px;
 }
+
 @media (min-width: 1440px) {
   .thanks-section {
     margin-top: 180px;
