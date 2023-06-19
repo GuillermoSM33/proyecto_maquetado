@@ -490,3 +490,29 @@ Esta parte es el css para el metodo de pago
 .attribution a {
   color: hsl(228deg, 45%, 44%);
 }
+
+footer{
+  margin-top: 20px;
+  background: #FFDB1E;
+  padding: 25px 15px;
+  position: relative;
+  text-align: right;
+  
+}
+
+footer img{
+  margin: 0 8px;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+footer h5{
+  font-weight: bold;
+  clear: both;
+  float: left;
+}
+
+
+
+
