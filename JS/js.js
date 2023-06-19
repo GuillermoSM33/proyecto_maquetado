@@ -220,22 +220,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //DESPUES DE ESTO VIENE EL JS PARA LAS TARJETAS DE CRÉDITO
 
-// CARDHOLDER NAME
+// Propietario
 let nameCard = document.querySelector('.card__details-name');
 let nameInput = document.querySelector('#cardholder');
 let nameErrorDiv = document.querySelector('.form__cardholder--error');
 
-// CARD NUMBER
+// Número de tarjeta
 let numberCard = document.querySelector('.card__number');
 let numberInput = document.querySelector('#cardNumber');
 let numberErrorDiv = document.querySelector('.form__inputnumber--error');
 
-// MM
+// Mes
 let monthCard = document.querySelector('.card__month');
 let monthInput = document.querySelector('#cardMonth');
 let monthErrorDiv = document.querySelector('.form__input-mm--error');
 
-// YY
+// Anio
 let yearCard = document.querySelector('.card__year');
 let yearInput = document.querySelector('#cardYear');
 let yearErrorDiv = document.querySelector('.form__input-yy--error');
@@ -297,7 +297,7 @@ cvcInput.addEventListener('input', ()=>{
 });
 
 
-// Boton Confirm
+// Boton Confirmar
 
 let confirmBtn = document.querySelector('.form__submit')
 
@@ -314,7 +314,7 @@ let thanksSection = document.querySelector('.thanks-section');
 confirmBtn.addEventListener('click', event=>{
     event.preventDefault();
 
-    // Validar Name
+    // Validar Nombre
     if(verifyIsFilled(nameInput, nameErrorDiv)){
         nameValidation = true;
     }else{
