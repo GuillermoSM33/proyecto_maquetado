@@ -1,0 +1,102 @@
+* {
+    margin: auto;
+  }
+
+  .specific_body {
+    background-color: #D9D9D9;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .photo_and_name_of_company {
+    padding-right: 25%;
+    text-align: left;
+  }
+
+nav {
+    background-color: #ffffff;
+    height: 60px;
+    text-align: right;
+  }
+  
+  nav a {
+    width: fit-content;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav ul {
+    padding-top: 10px;
+  
+  }
+  
+  nav ul li {
+    padding-top: 10px;
+    display: inline;
+    /*PADDING: TOP, RIGHT BOTTOM LEFT*/
+    padding: 5px 10PX 5PX 10px;
+  }
+  
+  nav a:hover {
+    color: aqua;
+    text-decoration: underline;
+  }
+
+
+/*contactos*/
+.contacts{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 7px;
+    border: 2px rgb(255, 115, 225) outset;
+    background-color: #fcf75e;
+}
+
+#div{
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 300px;
+}
+
+.contacts img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.contacts h5{
+    font-weight: bolder;
+    text-align: center;
+    clear: both;
+    float: right;
+}
+
+
+/*Footer*/
+footer{
+    margin-top: 300px;
+    background: #FFDB1E;
+    padding: 25px 15px;
+    position: relative;
+    text-align: right;
+    
+  }
+  
+  footer img{
+    margin: 0 8px;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+  }
+  
+  footer h5{
+    font-weight: bold;
+    clear: both;
+    float: left;
+  }
+
+  
+  
